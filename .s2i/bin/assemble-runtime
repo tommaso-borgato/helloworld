@@ -32,5 +32,5 @@ if [ ! -d $JBOSS_HOME ]; then
 
   rm -rdf $PWD/server || echo "Failed to remove $PWD/server"
 else
-  /opt/jboss/container/wildfly/run
+  /opt/jboss/container/wildfly/run/run
 fi
